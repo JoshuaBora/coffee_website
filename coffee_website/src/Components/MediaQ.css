@@ -1,0 +1,565 @@
+
+
+@media (max-width:1025px) {
+  .navigation {
+    transform: scale(0.8);
+    top: -20px;
+    left: -70px;
+    
+  }
+
+  .CartBtn {
+    right: 540px;
+    top: -15px;
+    transform: scale(0.7);
+
+  
+  }
+
+  .CartBtn:hover {
+    right: 540px;
+    top: -15px;
+    transform: scale(0.8);
+
+  
+  }
+
+  .login {
+    right: 380px;
+    top: -15px;
+    transform: scale(0.8);
+  
+  }
+
+  .login:hover {
+    right: 380px;
+    top: -15px;
+    transform: scale(0.9);
+  
+  }
+
+  
+
+  .The_Bean_logo {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    width: 230px;
+  }
+
+  .Taste_Power {
+    position: absolute;
+    top: 220px;
+    left: 30px;
+    color: #563610;
+    font-weight:900;
+    font-size: 50px;
+  }
+  
+  .Power {
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    color: #ff6000;
+  }
+
+
+  
+/* ---------Types----------- */
+
+
+.Types {
+  display: flex;
+  position: relative;
+  
+}
+
+.Our_Types_Coffee {
+  display: flex;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: -300px;
+  left: -430px;
+  
+  
+}
+
+.coffeePacks,img {
+  display: flex;
+  position:absolute;
+  top: -229px;
+  left: -143px;
+  transform: scale(0.78);
+}
+
+/* --------Menu--------- */
+
+.Menu {
+  display: flex;
+  position: relative;
+  gap: 20px;
+  justify-content: space-around;
+  height: 745px;
+  padding: 0 20px;
+  top: -830px;
+  left: -190px;
+
+  transform: scale(0.5);
+}
+
+.Daily_Blend_Container {
+  display: flex;
+  position: relative;
+  top: 200px;
+  height: 460px;
+  justify-content: center;
+  flex-direction: column;
+  transition: 500ms;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.Daily_Blend_Img {
+  top: -10px;
+  left: 10px;
+}
+
+  /* --------Contact us---------- */
+
+
+.ContactUsPage {
+  position: absolute;
+  top: 1010px;
+  left: 170px;
+  transform: scale(0.5);
+  visibility: hidden;
+}
+
+.ContactBeanLogo{
+  top: 1200px ;
+  left: 330px;
+  width: 600px;
+  visibility:visible;
+}
+
+.Address {
+  bottom: -500px;
+  left: 20px;
+  transform: scale(1.7);
+  visibility: visible;
+  
+}
+
+.Emailer {
+  z-index: 50;
+  display: flex;
+  position: absolute;
+  gap: 20px;
+  flex-direction: column;
+  right: -50px;
+  transform: scale(2);
+  visibility: visible;
+ 
+}
+  
+}
+
+
+/* ---------768--------- */
+
+@media (max-width:768px) {
+  .navigation {
+    transform: scale(0.8);
+    left: -50px;
+    
+  }
+
+  .CartBtn {
+    right: 210px;
+    transform: scale(0.8);
+
+  
+  }
+
+  .CartBtn:hover {
+    right: 210px;
+    transform: scale(0.9);
+
+  
+  }
+
+  .login {
+    right: 50px;
+    transform: scale(0.7);
+  
+  }
+
+  .login:hover {
+    right: 50px;
+    transform: scale(0.8);
+  
+  }
+
+
+  
+
+
+  .ToTopBtn  {
+    z-index: 100;
+    display: flex;
+    position: fixed;
+    color:#ff6000;
+    right: 50px;
+    top: 300px;
+    font-size: 80px;
+    border-style: none ;
+    background-color: #ffffff00;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+
+  
+
+  .The_Bean_logo {
+    position: absolute;
+    left: 60px;
+    top: 30px;
+    width: 230px;
+  }
+
+  .Taste_Power {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    color: #563610;
+    font-weight:900;
+    font-size: 50px;
+  }
+  
+  .Power {
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    color: #ff6000;
+  }
+
+
+  
+/* ---------Types----------- */
+
+
+.Types {
+  display: flex;
+  position: relative;
+  
+}
+
+.Our_Types_Coffee {
+  display: flex;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: -300px;
+  left: -390px;
+  
+  
+}
+
+.coffeePacks,img {
+  display: flex;
+  position:absolute;
+  top: -223px;
+  left: -125px;
+  transform: scale(0.78);
+}
+
+/* --------Menu--------- */
+
+.Menu {
+  display: flex;
+  position: relative;
+  gap: 20px;
+  justify-content: space-around;
+  height: 550px;
+  padding: 0 20px;
+  left: -20px;
+  top: -765px;
+  
+
+  transform: scale(0.5);
+}
+
+.OurMenu {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  left: 280px;
+}
+
+.Daily_Blend_Container {
+  display: flex;
+  position: relative;
+  top: 200px;
+  height: 460px;
+  justify-content: center;
+  flex-direction: column;
+  transition: 500ms;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.Daily_Blend_Img {
+  top: -10px;
+  left: 10px;
+}
+
+  /* --------Contact us---------- */
+
+
+  .ContactUsPage {
+    position: absolute;
+    background-color: #ffffff00;
+    visibility: hidden;
+    top: 2190px;
+    left: 140px;
+    width: 2px;
+    transform: scale(0.3);
+  }
+  
+  .ContactBeanLogo{
+    top: -950px ;
+    left: 580px;
+    transform: scale(2);
+    padding-bottom: 70px;
+    visibility: visible;
+  }
+  
+  .Address {
+    left: 250px;
+    top: -500px;
+    color: black;
+    transform: scale(3);
+    visibility: visible;
+    
+  }
+  
+  .Emailer {
+    z-index: 50;
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    flex-direction: column;
+    top: -3500px;
+    right: -350px;
+    transform: scale(4);
+    visibility: visible;
+  
+  }
+    
+  }
+
+/* ---------640--------- */
+
+
+@media (max-width:391px) {
+  .navigation {
+    justify-content: baseline;
+    transform: scale(0.7);
+    top: -30px;
+    left: -100px;
+    font-size: 25px;
+    width: 500px;
+    
+  }
+
+  .CartBtn {
+    right: 30px;
+    top: -30px;
+    transform: scale(0.5);
+
+  
+  }
+
+  .CartBtn:hover {
+    right: 30px;
+    top: -30px;
+    transform: scale(0.6);
+
+  
+  }
+
+
+  .login {
+    right: -10px;
+    top: 10px;
+    transform: scale(0.5);
+  
+  }
+
+  .login:hover {
+    right: -10px;
+    top: 10px;
+    transform: scale(0.6);
+  }
+
+
+  .ToTopBtn  {
+    position: fixed;
+    right: 600px;
+    top: 300px;
+    font-size: 80px;
+  }
+  
+
+  
+
+  .The_Bean_logo {
+    position: absolute;
+    left: 5px;
+    top: 50px;
+    width: 180px;
+  }
+
+  .Taste_Power {
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    color: #563610;
+    font-weight:900;
+    font-size: 50px;
+    transform: scale(1);
+  }
+  
+  .Power {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: #ff6000;
+  }
+
+
+  
+/* ---------Types----------- */
+
+
+.Types {
+  display: flex;
+  position: relative;
+  
+}
+
+.Our_Types_Coffee {
+  display: flex;
+  position: absolute;
+  color: white;
+  top: -280px;
+  left: -570px;
+  font-size: 20px;
+  
+  
+}
+
+.coffeePacks,img {
+  display: flex;
+  position:absolute;
+  top: -140px;
+  left: -164px;
+  transform: scale(0.6);
+}
+
+/* --------Menu--------- */
+
+.Menu {
+  display: grid;
+  grid-template-columns: auto auto;
+  position: relative;
+  justify-content: space-around;
+  padding: 0 20px;
+  top: -800px;
+  left: 30px;
+
+  transform: scale(0.4);
+}
+
+.OurMenu {
+  display: flex;
+  position: absolute;
+  color: #563610;
+  left: -380px;
+  top: 450px;
+  height: 500px;
+  font-size: 100px;
+  font-weight: 500;
+  writing-mode: vertical-lr;
+}
+
+
+.Daily_Blend_Container {
+  display: flex;
+  position: relative;
+  top: 200px;
+  height: 460px;
+  justify-content: center;
+  flex-direction: column;
+  transition: 500ms;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.Daily_Blend_Img {
+  top: -10px;
+  left: 10px;
+}
+
+  /* --------Contact us---------- */
+
+
+.ContactUsPage {
+  position: absolute;
+  background-color: #ffffff00;
+  visibility: hidden;
+  top: 1190px;
+  left: 140px;
+  width: 2px;
+  transform: scale(0.3);
+}
+
+.ContactBeanLogo{
+  top: 1100px ;
+  left: 20px;
+  transform: scale(1);
+  padding-bottom: 70px;
+  visibility: visible;
+}
+
+.Address {
+  left: -300px;
+  top: -100px;
+  color: white;
+  transform: scale(2);
+  visibility: visible;
+  height: 500px;
+  
+}
+
+.Emailer {
+  z-index: 50;
+  display: flex;
+  position: absolute;
+  gap: 20px;
+  flex-direction: column;
+  top: 450px;
+  right: 250px;
+  height: 100px;
+  transform: scale(3);
+  visibility: visible;
+
+}
+  
+}
+

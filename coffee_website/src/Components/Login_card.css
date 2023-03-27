@@ -1,0 +1,315 @@
+.wrapper {
+  z-index: 99;
+  position: absolute;
+  left: 550px;
+  top: 150px;
+  width: 400px;
+  height: 440px;
+  background-color: #ff6000;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrapper-Registration {
+  z-index: 99;
+  position: absolute;
+  left: 550px;
+  top: 150px;
+  width: 400px;
+  height: 540px;
+  background-color: #ff6000;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+.wrapper .FormBox_login {
+  width: 100%;
+  padding: 40px;
+}
+
+
+.wrapper .icon-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  background:#162938;
+  font-size: 2em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  z-index: 98;
+}
+
+.wrapper-Registration .icon-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  background:#162938;
+  font-size: 2em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  z-index: 98;
+}
+
+.FormBox_login h2 { 
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+
+.FormBox_Registration h2 {
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+
+.input-box {
+  position: relative ;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #162938;
+  margin: 30px 0;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: #162938;
+  font-weight: 500;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:focus~label {
+  top: -5px;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: white;
+  font-weight: 600;
+  padding: 0 35px 0 5px;
+}
+
+.input-box .icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  color: #162938;
+  line-height:57px;
+}
+
+.remember-forgot {
+  font-size: .9em;
+  color: #162938;
+  font-weight: 500;
+  margin: -15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.remember-forgot input {
+  accent-color: #162938;
+  margin-right: 3px;
+}
+
+.LoginForgetpassword {
+  z-index: 100;
+  display: flex;
+  position: relative;
+  font-family: Roboto;
+  color: white;
+  font-weight: 500;
+  font-size: .9em;
+  cursor: pointer;
+  
+}
+
+
+
+
+
+
+
+
+.RegistrationForgotPassword {
+  z-index: 100;
+  display: flex;
+  position: absolute;
+  top: 460px;
+  left: 790px;
+  font-family: Roboto;
+  text-decoration: none;
+  color: #162938;
+  font-weight: 500;
+  font-size: .9em;
+}
+
+.login-register-container {
+  z-index: 100;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 10px;
+  align-items: baseline;
+  position: relative;
+  font-family: Roboto;
+  color:#162938;
+  font-weight: 500;
+  font-size: .9em;
+}
+
+.Register {
+  z-index: 100;
+  display: flex;
+  font-family: Roboto;
+  color: white;
+  font-weight: 500;
+  font-size: .9em;
+  cursor: pointer;
+}
+
+.RegistrationLogin {
+  z-index: 100;
+  display: flex;
+  position: absolute;
+  top: 570px;
+  left: 800px;
+  font-family: Roboto;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: .9em;
+  opacity: 0;
+}
+
+
+
+
+
+.LoginForgetpassword:hover , .Register:hover {
+  color: white;
+}
+
+
+
+
+
+
+
+.btn {
+  width: 100%;
+  height: 45px;
+  background: #162938;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
+}
+
+
+@media (max-width:1024px) {
+
+  
+
+
+  .wrapper {
+   
+    left: 150px;
+    top: 10px;
+    transform: scale(0.6);
+
+  }
+
+  .wrapper-Registration {
+   
+    left: 150px;
+    top: -50px;
+    transform: scale(0.6);
+   
+  }
+}
+
+@media (max-width:768px) {
+
+  
+
+
+  .wrapper {
+   
+    left: 170px;
+    top: 30px;
+    transform: scale(0.8);
+
+  }
+
+  .wrapper-Registration {
+   
+    left: 170px;
+    top: 20px;
+    transform: scale(0.8);
+   
+  }
+}
+
+@media (max-width:391px) {
+
+  
+
+
+  .wrapper {
+    z-index: 100;
+    left: 0px;
+    top: 40px;
+    transform: scale(0.8);
+
+  }
+
+  .wrapper-Registration {
+   
+    z-index: 100;
+    left: 0px;
+    top: 40px;
+    transform: scale(0.8);
+   
+  }
+}
+
+

@@ -1,0 +1,444 @@
+html {
+
+  scroll-behavior: smooth;
+  
+}
+
+
+body {
+  
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  
+  background-image: url('./Images/Full_bg_coffee_website_layout.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+/* -----------Home-------------- */
+
+.Home {
+
+   height: 745px;
+   
+  
+}
+.navigation {
+  display: flex;
+  position: absolute;
+  margin-top: 30px;
+  padding-left: 40px;
+  font-size: 30px;
+  gap: 20px;
+  
+}
+
+
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.navigation a:hover {
+  color:#ff6000;
+  margin-top: -8px;
+
+  
+}
+
+.CartBtn {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin-top: 20px;
+  right: 250px;
+  width: 60px;
+  height: 60px;
+  color: white;
+  border-radius: 30px;
+  border-style: none;
+  background-color: #ff6000;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+.ToTopBtn  {
+  z-index: 100;
+  display: flex;
+  position: fixed;
+  color:#ff6000;
+  right: 20px;
+  top: 600px;
+  font-size: 80px;
+  border-style: none ;
+  background-color: #ffffff00;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+.ItemAmount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  font-size: 20px;
+  background-color:#563610;
+  width: 30px;
+  height: 30px;
+}
+
+.CartBtn:hover {
+  transform: scale(1.2);
+  color: black;
+  border-width: 2px;
+  border-style: solid;
+  
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 30px;
+  padding: 5px 80px;
+  right: 40px;
+  font-size: 25px;
+  width: 100px;
+  border-radius: 50px;
+  border-style: none;
+  background-color: #ff6000;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+
+
+.login:hover {
+  font-weight: 600;
+  transform: scale(1.2);
+  border-width: 2px;
+  border-style: solid;
+  
+}
+
+.logo {
+  background-image: url("./Images/Icons/The_Bean_Logo.png");
+}
+
+.The_Bean_logo {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 400px;
+}
+
+.Taste_Power {
+  position: absolute;
+  top: 390px;
+  left: 80px;
+  color: #563610;
+  font-weight:900;
+  font-size: 100px;
+}
+
+.Power {
+  position: absolute;
+  top: 60px;
+  left: 220px;
+  color: #ff6000;
+}
+
+
+/* ---------Types----------- */
+
+
+.Types {
+  display: flex;
+  position: relative;
+  height: 745px;
+  
+}
+
+.Our_Types_Coffee {
+  display: flex;
+  width: 1519px;
+  position: absolute;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  top: 40px;
+  
+}
+
+.coffeePacks,img {
+  display: flex;
+  position:absolute;
+  padding: 0;
+  margin: 0;
+}
+
+/* --------Menu--------- */
+
+.Menu {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  height: 745px;
+  padding: 0 20px;
+}
+
+.Daily_Blend_Container {
+  display: flex;
+  position: relative;
+  top: 200px;
+  height: 460px;
+  justify-content: center;
+  flex-direction: column;
+  transition: 500ms;
+  cursor: pointer;
+}
+
+.Daily_Blend_Container:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+  color: white;
+  border-radius: 5%;
+  background-color: #563610;
+}
+
+
+.Price {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  padding: 20px 5px;
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  background-color: #ff6000;
+  border-radius: 100px;
+}
+
+.Daily_Blend_Img {
+  display: flex;
+  margin-top: 5px;
+  padding-left: 35px;
+  position: relative;
+  width: 200px;
+}
+
+.CoffeeInfo {
+  display: flex;
+  text-align:center;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0 36px;
+  width: 200px;
+  
+}
+
+.AddToCart {
+  position: absolute;
+  bottom: 25px;
+  left: 55px;
+  font-weight: 700;
+  font-size: 25px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #ff6000;
+  color: white;
+  border-style: none;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.AddToCart:hover {
+  color: #ff6000;
+  background-color: white;
+  transition: 500ms;
+  
+}
+
+.OurMenu {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+
+
+/* --------Contact us---------- */
+
+
+.ContactUsPage {
+  display: flex;
+  height: 745px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 150px;
+}
+
+.ContactUsCard {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff6000;
+  width: 1200px;
+  height: 500px;
+  padding: 0 20px;
+  border-radius: 600px;
+}
+
+.ContactBeanLogo{
+  position: absolute;
+  left: 50px;
+}
+
+.Address {
+  position: absolute;
+  z-index: 100;
+  font-size: 30px;
+  font-weight: 500;
+  width: 300px;
+  left: 550px;
+  text-align: center;
+}
+
+.Emailer {
+  z-index: 50;
+  display: flex;
+  position: absolute;
+  gap: 20px;
+  flex-direction: column;
+  right: 200px;
+}
+
+
+
+.Email {
+  
+  height: 30px;
+  font-size: 15px;
+  color: white;
+  border-style: solid;
+  border-bottom-width: 5px;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-bottom-color:white ;
+  border-bottom-right-radius: 2.5px;
+  border-bottom-left-radius: 2.5px;
+  background-color: #ff6000;
+  outline: none;
+  
+}
+
+
+
+
+::placeholder {
+  font-size: 15px;
+  font-family: Roboto;
+  color: white;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+.Messsage {
+  height: 30px;
+  font-size: 15px;
+  color: white;
+  border-style: solid;
+  border-bottom-width: 5px;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-bottom-color:white ;
+  border-bottom-right-radius: 2.5px;
+  border-bottom-left-radius: 2.5px;
+  background-color: #ff6000;
+  outline: none;
+}
+
+.SendEmail {
+  position: absolute;
+  bottom: -80px;
+  left: 75px;
+  font-weight: 700;
+  font-size: 25px;
+  border-radius: 50px;
+  padding: 10px;
+  background-color:#563610;
+  color: white;
+  border-style: none;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.SendEmail:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+  
+}
+
+/* ---------MediaQ--------- */
+
+@media (max-width:1025px) {
+  body {
+
+    background-image: url('./Images/Full_bg_coffee_website_layout.png');
+    background-size: 80%;
+    background-position-x: -80px;
+    background-repeat: no-repeat;
+  }
+  
+}
+
+@media (max-width:768px) {
+  body {
+
+    background-image: url('./Images/Full_bg_coffee_website_layout.png');
+    background-size: 110%;
+    background-position-x: -50px;
+    background-repeat: no-repeat;
+  }
+  
+}
+
+@media (max-width:391px) {
+  body {
+
+    background-image: url('./Images/Full_bg_coffee_website_layout.png');
+    background-size: 230%;
+    background-position-x: -253px;
+    background-repeat: no-repeat;
+  }
+  
+}
+
+
+
+
