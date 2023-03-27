@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/coffee_website/static/css/main.733eef5a.css",
+    "main.js": "/coffee_website/static/js/main.284a5dc4.js",
+    "static/js/787.b8c31bd0.chunk.js": "/coffee_website/static/js/787.b8c31bd0.chunk.js",
+    "static/media/Full_bg_coffee_website_layout.png": "/coffee_website/static/media/Full_bg_coffee_website_layout.c168eb86d8083f065742.png",
+    "static/media/Coffee_Beans_Stacked.png": "/coffee_website/static/media/Coffee_Beans_Stacked.c17957cc491bc52ab82b.png",
+    "static/media/Side_coffee_Right.png": "/coffee_website/static/media/Side_coffee_Right.c88fb7c29a4a7043389b.png",
+    "static/media/Side_coffee_Left.png": "/coffee_website/static/media/Side_coffee_Left.e262fe7d4cd5cf4c951c.png",
+    "static/media/Coffee_Beans_Stacked_Menu.png": "/coffee_website/static/media/Coffee_Beans_Stacked_Menu.0d5725b698ba9d34519d.png",
+    "static/media/The_Bean_Logo.png": "/coffee_website/static/media/The_Bean_Logo.2117a0c84fa505aa0381.png",
+    "static/media/coffee-cup.png": "/coffee_website/static/media/coffee-cup.e13f9131cc7d09130396.png",
+    "static/media/cold-coffee.png": "/coffee_website/static/media/cold-coffee.b95a84f0bae6048df2f2.png",
+    "static/media/expresso.png": "/coffee_website/static/media/expresso.b430d5bc21624a516252.png",
+    "static/media/french-press.png": "/coffee_website/static/media/french-press.4b08155ad343dfbcba36.png",
+    "index.html": "/coffee_website/index.html",
+    "main.733eef5a.css.map": "/coffee_website/static/css/main.733eef5a.css.map",
+    "main.284a5dc4.js.map": "/coffee_website/static/js/main.284a5dc4.js.map",
+    "787.b8c31bd0.chunk.js.map": "/coffee_website/static/js/787.b8c31bd0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.733eef5a.css",
+    "static/js/main.284a5dc4.js"
+  ]
+}
